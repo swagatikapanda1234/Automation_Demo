@@ -33,6 +33,7 @@ public class BaseTest {
 			System.setProperty("webdriver.chrome.driver",Constants.CC_DRIVER_PATH);
 			driver=new ChromeDriver(options);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			System.out.println("Adding new line");
 		}
 		else if(browserName.equalsIgnoreCase("Firefox")){
 			FirefoxProfile ffprofile = new FirefoxProfile();
