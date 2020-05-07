@@ -32,6 +32,7 @@ public class HomePage {
 	public boolean validatePageTitle()
 	{
 		String title = driver.getTitle();
+		System.out.println("The title text is "+title);
 		return title.contains("Facebook");
 	}
 	
