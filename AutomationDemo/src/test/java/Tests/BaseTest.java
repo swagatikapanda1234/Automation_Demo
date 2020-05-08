@@ -34,6 +34,8 @@ public class BaseTest {
 			driver=new ChromeDriver(options);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			System.out.println("Adding new line");
+			System.out.println("This is Arun..");
+			
 		}
 		else if(browserName.equalsIgnoreCase("Firefox")){
 			FirefoxProfile ffprofile = new FirefoxProfile();
